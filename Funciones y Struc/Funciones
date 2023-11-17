@@ -1,0 +1,34 @@
+﻿#include<iostream>
+#include<string>
+
+float pedir()
+{
+    float cali;
+    int num;
+    num = num + 1;
+    std::cout << "calificacion " << num << ":"; 
+    std::cin >> cali;
+    return cali;
+};
+
+float calcular(float calificacion[5])
+{
+    int i;    
+    float promedio = 0;
+    for (i = 0; i < 5; ++i)
+    {
+        calificacion[i] = pedir();
+        promedio += calificacion[i];
+    }
+    return promedio /5;
+};
+
+int main()
+{
+    
+    float calificacion[5];
+    float prome = calcular(calificacion);
+
+std::cout << "Tu Promedio es: " << prome << std::endl;            
+
+}
