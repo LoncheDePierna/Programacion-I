@@ -3,200 +3,203 @@
 
 #include <string>
 #include <iostream>
+#include <variant>
 using namespace std;
 
 class seguro {
 
 public:
-    seguro(string name, string desc, int price, int cover, int id, string curp, int age){
-        this->name = name;
-        this->desc = desc;
-        this->price = price;
-        this->cover = cover;
-        this->id = id;
+    seguro(string nombre, int edad, string curp, int prestamo, int deducible){
+        this->nombre = nombre;
+        this->edad = edad;
         this->curp = curp;
-        this->age = age;
+        this->prestamo = prestamo;
+        this->deducible = deducible;
     };
 
     //Setters
-    void setName(string name){
-        this->name = name;
+    void setnombre(string nombre){
+        cout << "Nombre completo: ";
+        cin >>nombre;
+        this->nombre = nombre;
     };
-    void setDesc(string desc){
-        this->desc = desc;
+    void setedad(int edad){
+      cout << "Edad: ";
+      cin << edad;
+      this->edad = edad;
     };
-    void setPrice(int price){
-        this->price = price;
+    void setcurp(string curp){
+        cout << "Curp: ";
+        cin << curp;
+        this->curp = curp;
     };
-    void setCover(int cover){
-        this->cover = cover;
+    void setprestamo(int prestamo){
+        cout << "Cantidad del Prestamo: ";
+        cin << prestamo;
+        this->prestamo = prestamo;
     };
-    void setId(int id){
-        this->id= id;
+    void setdeducible(int deducible){
+        cout << "Deducible: ";
+        cin << deducible;
+        this->deducible = deducible;
     };
-    void setCurp(string curp){
-        this->curp= curp;
-    };
-    void setAge(int age){
-        this->age= age;
-    };
-
     //Getters
-    string getName(){
-        return this->name;
+    string getnombre(){
+        cout << "Nombre Completo: ";
+        return this->nombre;
     };
-    string getDesc(){
-        return this->desc;
+    int getedad(){
+        cout << "Edad: ";
+        return this->edad;
     };
-    int getPrice(){
-        return this->price;
-    };
-    int getCover(){
-        return this->cover;
-    };
-    int getId(){
-        return this->id;
-    };
-    string getCurp(){
+    string getcurp(){
+        cout << "Curp: ";
         return this->curp;
     };
-    int getAge(){
-        return this->age;
+    int getprestamo(){
+        cout << "Cantidad del prestamo: ";
+        return this->prestamo;
     };
+    int getdeducible(){
+        cout << "Deducible: ";
+        return this->deducible;
+    };
+
 private:
-    string name;
-    string desc;
-    int price;
-    int cover;
-    int id;
+    string nombre;
     string curp;
-    int age;
-
+    int edad;
+    int prestamo;
+    int deducible;
     };
 
-class carroseguro : public seguro{
+class carro : public seguro{
 public:
-    carroseguro(string name, string desc, int price, int cover, int id, string curp, int age) : seguro(name, desc, price, cover, id, curp, age){
-        this->model = name;
-        this->brand = desc;
+    carro(int anio, int kilo, string modelo, string nserie, string marca, string nombre, int edad, string curp, int prestamo, int deducible) : seguro(nombre, edad, curp, prestamo, deducible){
+        this->anio = anio;
+        this->kilo = kilo;
+        this->modelo = modelo;
+        this->nserie = nserie;
+        this->marca = marca;
     };
-
     //Setters
-    void setModel(string model){
-        this->model = model;
+    void setanio(int anio){
+        cout << "Anio: ";
+        cin << anio;
+        this->anio = anio;
     };
-    void setBrand(string brand){
-        this->brand = brand;
+    void setkilo(int kilo){
+        cout << "Kilometraje: ";
+        cin << kilo;
+        this->kilo = kilo;
+    };
+    void setmodelo(string modelo){
+        cout << "Modelo: ";
+        cin << modelo;
+        this->modelo = modelo;
+    };
+    void setnserie(string nserie){
+        cout << "Numero de Serie: ";
+        cin << nserie;
+        this->nserie = nserie;
+    };
+    void setmarca(string marca){
+        cout << "Marca: ";
+        cin << marca;
+        this->marca = marca;
     };
     //Getters
-    string getModel(){
+    int getanio(){
+        return this->anio;
+    };
+    int getkilo(){
+        return this->kilo;
+    };
+    string getmodel(){
         return this->model;
     };
-    string getBrand(){
-        return this->brand;
+    string getnserie(){
+        return this->nserie;
+    };
+    string getmarca(){
+        return this->marca;
     };
 
 private:
-    string model;
-    string brand;
+    int anio;
+    int kilo;
+    string modelo;
+    string nserie;
+    string marca;
 };
-
-class vidaseguro : public seguro{
+//bool enfermo, string sangre,
+class vida : public seguro{
 public:
-    vidaseguro(bool sickness, string name, string desc, int price, int cover, int id, string curp, int age) : seguro(name, desc, price, cover, id, curp, age){
-    }
+    vida(bool enfermo, string sangre, string nombre, int edad, string curp, int prestamo, int deducible) : seguro(nombre, edad, curp, prestamo, deducible){
+        this->enfermo = enfermo;
+        this->sangre = sangre;
+    };
+    //Setters
+    void setenfermo(bool enfermo){
+        cout << "Tienes alguna enfermedad: ";
+        cin << enfermo;
+        this->enfermo = enfermo;
+    };
+    void setsangre(string sangre){
+        cout << "Tipo de Sangre: ";
+        cin << sangre;
+        this->sangre = sangre;
+    };
+    //Getters
+    int getenfermo(){
+        return this->enfermo;
+    };
+    int getsangre(){
+        return this->sangre;
+    };
+
+private:
+    bool enfermo;
+    string sangre;
 };
 
-void crearcarro(){
+variant<carro> Menu(){
+    int modo;
+    cout << "CREA TU POLIZA EN LINEA" << endl << endl;
+    cout << "Selecciona el tipo de Poliza" << endl;
+    cout << "Seguro de Carro / 1"
+    cout << "Seguro de Vida  / 2"
+    cout << "Seguro de Casa  / 3"
+    cin >> modo;
 
-    carroseguro Carro("1", "1", 1, 1, 1, "1", 1);
-    string model;
-    string brand;
-    int price;
-    int cover;
-    int id;
-    string curp;
-    int age;
-
-    cout << endl << "Modelo: ";
-    cin >> model;
-    cout << "Marca: ";
-    cin >> brand;
-    cout << "Precio: ";
-    cin >> price;
-    cout << "Covertura: ";
-    cin >> cover;
-    cout << "Id: ";
-    cin >> id;
-    cout << "Curp: ";
-    cin >> curp;
-    cout << "Edad: ";
-    cin >> age;
-
-    Carro.setModel(model);
-    Carro.setBrand(brand);
-    Carro.setPrice(price);
-    Carro.setCover(cover);
-    Carro.setId(id);
-    Carro.setCurp(curp);
-    Carro.setAge(age);
-    cout << endl << "POLIZA CREADA" << endl;
-
-
-}
-
-int settipo(){
-
-    int valor;
-    cout << "Seguro de Carro / 1" << endl << "Seguro de Vida  / 2" << endl;
-    cout << "r= ";
-    cin >> valor;
-
-    switch(valor){
+    switch(modo){
         case 1:{
-            seguro Juan();
-            cout << endl << "RELLENA LOS DATOS PARA TU POLIZA DE CARRO" << endl;
-            crearcarro();
-            break;
+            carro carro;
+            return carro;
         }
+            break;
         case 2:{
-            cout << endl << "ELIGUE EL TIPO DE POLIZA" << endl;
+            vida vida;
+            return vida;
+        }
             break;
+        case 3:{
+            casa casa;
+            return casa;
         }
-        default:{
-            cout << "Eligue un numero valido" << endl << endl << settipo() << endl;
-        }
+            break;
+        default:
+            exit ( 0)
     }
+
 }
 
-int setmodo(){
-    int valor;
-    cout << "POLIZAS EN LINEA" << endl << endl;
-    cout << "Mis polizas  / 1" << endl << "Crear poliza / 2" << endl;
-    cout << "r= ";
-    cin >> valor;
 
-    switch(valor){
-        case 1:{
-            cout << endl << "MIS POLIZAS" << endl;
-            break;
-        }
-        case 2:{
-            cout << endl << "ELIGUE EL TIPO DE POLIZA" << endl;
-            settipo();
-            break;
-        }
-        default:{
-            cout << "Eligue un numero valido" << endl << endl << setmodo() << endl;
-        }
-    }
-}
 
 #endif
 
 
 int main(){
-    setmodo();
     cout << "incio";
 };
 
@@ -222,3 +225,14 @@ int main(){
 //librerias
 //Poo
 //Punteros
+
+//póliza de seguros: nombre, CURP, fecha de nacimiento calcula la edad, deducible, montón maximo
+//herencia: seguro de vida(enfermedades, tipo de sangre, edad), de carro(kilometraje, modelo, num de serie, marca, año) , hogar (tamaño m2, ubicación, antigüedad)
+
+//string nombre, int edad, string curp, int prestamo, int deducible
+//casa
+//string tamaño, direccion, año
+//vida
+//bool enfermo, string sangre,
+//coche
+//int año, int kilo, string modelo, string nserie, string marca
