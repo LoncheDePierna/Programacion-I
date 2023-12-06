@@ -1,6 +1,3 @@
-//
-// Created by Alumnos on 23/11/2023.
-//
 #ifndef PROYECTOS_INSURANCES_H
 #define PROYECTOS_INSURANCES_H
 
@@ -8,31 +5,31 @@
 #include <iostream>
 using namespace std;
 
-class Insurances {
+class seguro {
+
 public:
-    Insurances(){};
-    Insurances(string name, string description, int price, int coverage, int id, string curp, string birthDate){
+    seguro(string name, string desc, int price, int cover, int id, string curp, int age){
         this->name = name;
-        this->description = description;
+        this->desc = desc;
         this->price = price;
-        this->coverage = coverage;
+        this->cover = cover;
         this->id = id;
         this->curp = curp;
-        this->birthDate = birthDate;
+        this->age = age;
     };
 
     //Setters
     void setName(string name){
         this->name = name;
     };
-    void setDescription(string description){
-        this->description = description ;
+    void setDesc(string desc){
+        this->desc = desc;
     };
     void setPrice(int price){
         this->price = price;
     };
-    void setCoverage(int coverage){
-        this->coverage = coverage;
+    void setCover(int cover){
+        this->cover = cover;
     };
     void setId(int id){
         this->id= id;
@@ -40,22 +37,22 @@ public:
     void setCurp(string curp){
         this->curp= curp;
     };
-    void setBirthDate(string birthDate){
-        this->birthDate= birthDate;
+    void setAge(int age){
+        this->age= age;
     };
 
     //Getters
     string getName(){
         return this->name;
     };
-    string getDescription(){
-        return this->description;
+    string getDesc(){
+        return this->desc;
     };
     int getPrice(){
         return this->price;
     };
-    int getCoverage(){
-        return this->coverage;
+    int getCover(){
+        return this->cover;
     };
     int getId(){
         return this->id;
@@ -63,26 +60,25 @@ public:
     string getCurp(){
         return this->curp;
     };
-    string getBirthDate(){
-        return this->birthDate;
+    int getAge(){
+        return this->age;
     };
 private:
     string name;
-    string description;
+    string desc;
     int price;
-    int coverage;
+    int cover;
     int id;
     string curp;
-    string birthDate;
+    int age;
 
     };
 
-class CarInsurances {
+class carroseguro : public seguro{
 public:
-    CarInsurances(){};
-    CarInsurances(string model, string brand, string name, string description, int price, int coverage, int id, string curp, string birthDate) : Insurances(name, description, price, coverage, id, curp, birthDate ){
+    carroseguro(string name, string desc, int price, int cover, int id, string curp, int age) : seguro(name, desc, price, cover, id, curp, age){
         this->model = name;
-        this->brand = description;
+        this->brand = desc;
     };
 
     //Setters
@@ -92,29 +88,120 @@ public:
     void setBrand(string brand){
         this->brand = brand;
     };
+    //Getters
+    string getModel(){
+        return this->model;
+    };
+    string getBrand(){
+        return this->brand;
+    };
 
 private:
     string model;
     string brand;
 };
 
-class LifeInsurances {
+class vidaseguro : public seguro{
 public:
-    LifeInsurances(){};
-    LifeInsurances(bool sickness, string name, string description, int price, int coverage, int id, string curp, string birthDate) : Insurances(name, description, price, coverage, id, curp, birthDate ){
+    vidaseguro(bool sickness, string name, string desc, int price, int cover, int id, string curp, int age) : seguro(name, desc, price, cover, id, curp, age){
+    }
 };
 
-#endif
+void crearcarro(){
 
-int main(){
+    carroseguro Carro("1", "1", 1, 1, 1, "1", 1);
+    string model;
+    string brand;
+    int price;
+    int cover;
+    int id;
+    string curp;
+    int age;
 
-    cout << "POLIZAS EN LINEA" << endl << endl;
-    cout << "Mis polizas  / 1" << endl << "Crear poliza / 2" << endl;
-    cout << "r= " << endl;
+    cout << endl << "Modelo: ";
+    cin >> model;
+    cout << "Marca: ";
+    cin >> brand;
+    cout << "Precio: ";
+    cin >> price;
+    cout << "Covertura: ";
+    cin >> cover;
+    cout << "Id: ";
+    cin >> id;
+    cout << "Curp: ";
+    cin >> curp;
+    cout << "Edad: ";
+    cin >> age;
 
+    Carro.setModel(model);
+    Carro.setBrand(brand);
+    Carro.setPrice(price);
+    Carro.setCover(cover);
+    Carro.setId(id);
+    Carro.setCurp(curp);
+    Carro.setAge(age);
+    cout << endl << "POLIZA CREADA" << endl;
 
 
 }
+
+int settipo(){
+
+    int valor;
+    cout << "Seguro de Carro / 1" << endl << "Seguro de Vida  / 2" << endl;
+    cout << "r= ";
+    cin >> valor;
+
+    switch(valor){
+        case 1:{
+            seguro Juan();
+            cout << endl << "RELLENA LOS DATOS PARA TU POLIZA DE CARRO" << endl;
+            crearcarro();
+            break;
+        }
+        case 2:{
+            cout << endl << "ELIGUE EL TIPO DE POLIZA" << endl;
+            break;
+        }
+        default:{
+            cout << "Eligue un numero valido" << endl << endl << settipo() << endl;
+        }
+    }
+}
+
+int setmodo(){
+    int valor;
+    cout << "POLIZAS EN LINEA" << endl << endl;
+    cout << "Mis polizas  / 1" << endl << "Crear poliza / 2" << endl;
+    cout << "r= ";
+    cin >> valor;
+
+    switch(valor){
+        case 1:{
+            cout << endl << "MIS POLIZAS" << endl;
+            break;
+        }
+        case 2:{
+            cout << endl << "ELIGUE EL TIPO DE POLIZA" << endl;
+            settipo();
+            break;
+        }
+        default:{
+            cout << "Eligue un numero valido" << endl << endl << setmodo() << endl;
+        }
+    }
+}
+
+#endif
+
+
+int main(){
+    setmodo();
+    cout << "incio";
+};
+
+
+
 
 //Póliza de Vida:
 
@@ -128,4 +215,10 @@ int main(){
 // Nombre y detalles de contacto.
 
 //Historial médico y financiero:
-// historial médico (incluyendo enfermedades preexistentes, y detalles financieros, como ingresos y deudas.)
+// historial médico incluyendo enfermedades preexistentes, y detalles financieros, como ingresos y deudas.
+
+//system("cls");
+
+//librerias
+//Poo
+//Punteros
