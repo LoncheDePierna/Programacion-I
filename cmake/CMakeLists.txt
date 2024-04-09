@@ -3,4 +3,7 @@ project(Proyectos_IPV_AAST)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Proyectos_IPV_ASST ../Proyecto_3er_Parcial/main.cpp)
+add_executable(Proyectos_IPV_ASST ../Proyecto_3er_Parcial/main.cpp
+        ../T_P1_2do/Int.cpp
+        ../T_P1_2do/Int.cpp
+        ../T_P1_2do/Int.cpp)
