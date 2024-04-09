@@ -10,23 +10,22 @@ public:
     IntCell(int value);//Parameters constructor
     ~IntCell() = default;//Destructor
 
-    x
 //Operadores de asignación =
     IntCell &operator= (const IntCell &rhs);
     IntCell &operator= (int i);
-
+//Operadores de asignación +
     IntCell &operator+ (const IntCell &rhs);
     IntCell &operator+ (int i);
-
+//Operadores de asignación -
     IntCell &operator- (const IntCell &rhs);
     IntCell &operator- (int i);
-
+//Operadores de asignación *
     IntCell &operator* (IntCell &rhs);
     IntCell &operator* (int i);
-
+//Operadores de asignación /
     IntCell &operator/ (IntCell &rhs);
     IntCell &operator/ (int i);
-
+//Operadores de asignación %
     IntCell &operator% (IntCell &rhs);
     IntCell &operator% (int i);
 

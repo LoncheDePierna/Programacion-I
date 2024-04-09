@@ -22,7 +22,7 @@ IntCell &IntCell::operator= (int i){
     this->value = i;
     return *this;
 }
-
+//Sobrecarga de operador "+"
 IntCell &IntCell::operator+ (const IntCell &rhs){
     this->value = rhs.value;
     return *this;
@@ -31,7 +31,7 @@ IntCell &IntCell::operator+ (int i){
     this->value = i;
     return *this;
 }
-
+//Sobrecarga de operador "-"
 IntCell &IntCell::operator- (const IntCell &rhs){
     this->value = rhs.value;
     return *this;
@@ -40,7 +40,7 @@ IntCell &IntCell::operator- (int i){
     this->value = i;
     return *this;
 }
-
+//Sobrecarga de operador *
 IntCell &IntCell::operator* (IntCell &rhs){
     this->value = rhs.value;
     return *this;
@@ -49,7 +49,7 @@ IntCell &IntCell::operator* (int i){
     this->value = i;
     return *this;
 }
-
+//Sobrecarga de operador /
 IntCell &IntCell::operator/ (IntCell &rhs){
     this->value = rhs.value;
     return *this;
@@ -58,7 +58,7 @@ IntCell &IntCell::operator/ (int i){
     this->value = i;
     return *this;
 }
-
+//Sobrecarga de operador %
 IntCell &IntCell::operator% (IntCell &rhs){
     this->value = rhs.value;
     return *this;
