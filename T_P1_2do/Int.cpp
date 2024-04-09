@@ -2,7 +2,7 @@
 
 //Constructor Implícito
 IntCell::IntCell(){
-    this-> value = 0;
+    this-> value =0;
 };
 //Constructor Explícito por copia
 IntCell::IntCell(int value){
