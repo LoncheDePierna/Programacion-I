@@ -1,118 +1,122 @@
-#include "Int.h"
+//
+// Created by Diego on 09/04/2024.
+//
+
+#include "Char.h"
 
 //Constructor Implícito
-IntCell::IntCell(){
-    this-> value =0;
+VChar::VChar(){
+    this-> value = 0;
 }
 //Constructor Explícito por copia
-IntCell::IntCell(int value){
+VChar::VChar(char value){
     this-> value=value;
 }
 //Constructor Explícito por Parámetros
-IntCell::IntCell(const IntCell &rhs){
+VChar::VChar(const VChar &rhs){
     value= rhs.value;
 }
 
 //Sobrecarga de operador "="
-IntCell &IntCell::operator= (const IntCell &rhs){
+VChar &VChar::operator= (const VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator= (int i){
+VChar &VChar::operator= (char i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de operador "+"
-IntCell &IntCell::operator+ (const IntCell &rhs){
+VChar &VChar::operator+ (const VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator+ (int i){
+VChar &VChar::operator+ (char i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de operador "-"
-IntCell &IntCell::operator- (const IntCell &rhs){
+VChar &VChar::operator- (const VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator- (int i){
+VChar &VChar::operator- (char i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de operador *
-IntCell &IntCell::operator* (IntCell &rhs){
+VChar &VChar::operator* (VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator* (int i){
+VChar &VChar::operator* (char i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de operador /
-IntCell &IntCell::operator/ (IntCell &rhs){
+VChar &VChar::operator/ (VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator/ (int i){
+VChar &VChar::operator/ (char i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de operador %
-IntCell &IntCell::operator% (IntCell &rhs){
+VChar &VChar::operator% (VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator% (int i){
+VChar &VChar::operator% (char i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de Operadores de comparacion ">,<,==,=>,=<,!="
-IntCell &IntCell::operator> (IntCell &rhs){
+VChar &VChar::operator> (VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator> (bool i){
+VChar &VChar::operator> (bool i){
     this->value = i;
     return *this;
 }
-IntCell &IntCell::operator< (IntCell &rhs){
+VChar &VChar::operator< (VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator< (bool i){
+VChar &VChar::operator< (bool i){
     this->value = i;
     return *this;
 }
-IntCell &IntCell::operator== (IntCell &rhs){
+VChar &VChar::operator== (VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator== (bool i){
+VChar &VChar::operator== (bool i){
     this->value = i;
     return *this;
 }
-IntCell &IntCell::operator>= (IntCell &rhs){
+VChar &VChar::operator>= (VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator>= (bool i){
+VChar &VChar::operator>= (bool i){
     this->value = i;
     return *this;
 }
-IntCell &IntCell::operator<= (IntCell &rhs){
+VChar &VChar::operator<= (VChar &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator<= (bool i){
+VChar &VChar::operator<= (bool i){
     this->value = i;
     return *this;
 }
-IntCell &IntCell::operator!= (IntCell &rhs){
-this->value = rhs.value;
-return *this;
+VChar &VChar::operator!= (VChar &rhs){
+    this->value = rhs.value;
+    return *this;
 }
-IntCell &IntCell::operator!= (bool i){
-this->value = i;
-return *this;
+VChar &VChar::operator!= (bool i){
+    this->value = i;
+    return *this;
 }

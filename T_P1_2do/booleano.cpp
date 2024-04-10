@@ -1,118 +1,123 @@
-#include "Int.h"
+//
+// Created by Diego on 09/04/2024.
+//
+
+#include "booleano.h"
+
 
 //Constructor Implícito
-IntCell::IntCell(){
-    this-> value =0;
+Booleano::Booleano(){
+    this-> value = true;
 }
 //Constructor Explícito por copia
-IntCell::IntCell(int value){
+Booleano::Booleano(bool value){
     this-> value=value;
 }
 //Constructor Explícito por Parámetros
-IntCell::IntCell(const IntCell &rhs){
+Booleano::Booleano(const Booleano &rhs){
     value= rhs.value;
 }
 
 //Sobrecarga de operador "="
-IntCell &IntCell::operator= (const IntCell &rhs){
+Booleano &Booleano::operator= (const Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator= (int i){
+Booleano &Booleano::operator= (bool i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de operador "+"
-IntCell &IntCell::operator+ (const IntCell &rhs){
+Booleano &Booleano::operator+ (const Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator+ (int i){
+Booleano &Booleano::operator+ (bool i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de operador "-"
-IntCell &IntCell::operator- (const IntCell &rhs){
+Booleano &Booleano::operator- (const Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator- (int i){
+Booleano &Booleano::operator- (bool i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de operador *
-IntCell &IntCell::operator* (IntCell &rhs){
+Booleano &Booleano::operator* (Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator* (int i){
+Booleano &Booleano::operator* (bool i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de operador /
-IntCell &IntCell::operator/ (IntCell &rhs){
+Booleano &Booleano::operator/ (Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator/ (int i){
+Booleano &Booleano::operator/ (bool i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de operador %
-IntCell &IntCell::operator% (IntCell &rhs){
+Booleano &Booleano::operator% (Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator% (int i){
+Booleano &Booleano::operator% (bool i){
     this->value = i;
     return *this;
 }
 //Sobrecarga de Operadores de comparacion ">,<,==,=>,=<,!="
-IntCell &IntCell::operator> (IntCell &rhs){
+Booleano &Booleano::operator> (Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator> (bool i){
+Booleano &Booleano::operator> (bool i){
     this->value = i;
     return *this;
 }
-IntCell &IntCell::operator< (IntCell &rhs){
+Booleano &Booleano::operator< (Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator< (bool i){
+Booleano &Booleano::operator< (bool i){
     this->value = i;
     return *this;
 }
-IntCell &IntCell::operator== (IntCell &rhs){
+Booleano &Booleano::operator== (Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator== (bool i){
+Booleano &Booleano::operator== (bool i){
     this->value = i;
     return *this;
 }
-IntCell &IntCell::operator>= (IntCell &rhs){
+Booleano &Booleano::operator>= (Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator>= (bool i){
+Booleano &Booleano::operator>= (bool i){
     this->value = i;
     return *this;
 }
-IntCell &IntCell::operator<= (IntCell &rhs){
+Booleano &Booleano::operator<= (Booleano &rhs){
     this->value = rhs.value;
     return *this;
 }
-IntCell &IntCell::operator<= (bool i){
+Booleano &Booleano::operator<= (bool i){
     this->value = i;
     return *this;
 }
-IntCell &IntCell::operator!= (IntCell &rhs){
-this->value = rhs.value;
-return *this;
+Booleano &Booleano::operator!= (Booleano &rhs){
+    this->value = rhs.value;
+    return *this;
 }
-IntCell &IntCell::operator!= (bool i){
-this->value = i;
-return *this;
+Booleano &Booleano::operator!= (bool i){
+    this->value = i;
+    return *this;
 }

@@ -28,6 +28,7 @@ public:
     FloatCell &operator% (FloatCell &rhs);
     FloatCell &operator% (float i);
 
+
 private:
 
     float value;

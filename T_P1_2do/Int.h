@@ -7,7 +7,7 @@ public:
 
     IntCell();//Default constructor
     IntCell(const IntCell &intCell);// Copy constructor
-    IntCell(int value);//Parameters constructor
+    explicit IntCell(int value);//Parameters constructor
     ~IntCell() = default;//Destructor
 
 //Operadores de asignación =
@@ -28,6 +28,24 @@ public:
 //Operadores de asignación %
     IntCell &operator% (IntCell &rhs);
     IntCell &operator% (int i);
+//Operadores de comparacion ">,<,==,=>,=<,!="
+    IntCell &operator> (IntCell &rhs);
+    IntCell &operator> (bool i);
+
+    IntCell &operator< (IntCell &rhs);
+    IntCell &operator< (bool i);
+
+    IntCell &operator== (IntCell &rhs);
+    IntCell &operator== (bool i);
+
+    IntCell &operator>= (IntCell &rhs);
+    IntCell &operator>= (bool i);
+
+    IntCell &operator<= (IntCell &rhs);
+    IntCell &operator<= (bool i);
+
+    IntCell &operator!= (IntCell &rhs);
+    IntCell &operator!= (bool i);
 
 private:
 
