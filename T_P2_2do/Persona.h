@@ -8,7 +8,7 @@ class Persona {
 
         public:
 
-        Persona() = default;//Default constructor
+        Persona();//Default constructor
         Persona(const Persona &persona);// Copy constructor
         Persona(std::string gender, std::string name, int age, float height, float weight);//Parameters    constructor
         ~Persona() = default;//Destructor

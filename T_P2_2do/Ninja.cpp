@@ -4,7 +4,13 @@
 
 #include "Ninja.h"
 
-Ninja::Ninja(std::string gender, std::string name, int age, float height, float weight, std::string aldea, std::string tChakra, int nvlChakra){
+Ninja::Ninja() : Persona(){
+    this-> aldea = "N/A";
+    this-> tChakra = "N/A";
+    this-> nvlChakra = 0;
+};
+
+Ninja::Ninja(std::string gender, std::string name, int age, float height, float weight, std::string aldea, std::string tChakra, int nvlChakra) : Persona(gender, name, age, height, weight){
     this-> aldea = aldea;
     this-> tChakra = tChakra;
     this-> nvlChakra = nvlChakra;

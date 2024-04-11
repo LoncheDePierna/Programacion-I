@@ -4,6 +4,14 @@
 
 #include "Persona.h"
 
+Persona::Persona(){
+    this-> gender = "N/A";
+    this-> name = "N/A";
+    this-> age = 0;
+    this-> height = 0;
+    this-> weight = 0;
+};
+
 Persona::Persona(const Persona &rhs){
     gender = rhs.gender;
     name = rhs.name;
@@ -32,7 +40,7 @@ std::string Persona::getName() const {
     return name;
 }
 void Persona::setName(std::string name) {
-    this->name = name
+    this->name = name;
 }
 
 int Persona::getAge() const {
@@ -49,7 +57,7 @@ void Persona::setHeight(float height) {
     this->height = height;
 }
 
-std::string Persona::getWeight() const {
+float Persona::getWeight() const {
     return weight;
 }
 void Persona::setWeight(float weight) {

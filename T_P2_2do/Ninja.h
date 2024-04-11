@@ -31,6 +31,7 @@ class Ninja : public Persona{
     std::string aldea;
     std::string tChakra;
     int nvlChakra;
+
 };
 
 

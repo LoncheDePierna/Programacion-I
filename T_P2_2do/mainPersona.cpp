@@ -8,6 +8,8 @@ int main(){
     Persona Miguel("Hombre", "Miguel", 23, 1.78, 61.7);
     Ninja Hernestito("Hombre", "Miguel", 23, 1.78, 61.7,"Konoha","Fuego",27);
 
-    Hernestito.getAldea();
-    Miguel.getAge();
+
+    std::cout << Miguel.getAge() << std::endl;
+    std::cout << Hernestito.getAldea();
+
 }
