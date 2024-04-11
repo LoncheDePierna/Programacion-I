@@ -8,7 +8,7 @@
 #include "Persona.h"
 #include "Ninja.h"
 #include "Sannin.h"
-
+a
 class Kage : Sannin {
 
 public:
