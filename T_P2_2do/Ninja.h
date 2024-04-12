@@ -6,7 +6,6 @@
 #define PROGRAMACION_I_NINJA_H
 
 #include "Persona.h"
-#include <string>
 
 class Ninja : public Persona{
 

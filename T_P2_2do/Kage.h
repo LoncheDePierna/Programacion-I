@@ -5,10 +5,8 @@
 #ifndef PROYECTOS_IPV_AAST_KAGE_H
 #define PROYECTOS_IPV_AAST_KAGE_H
 
-#include "Persona.h"
-#include "Ninja.h"
 #include "Sannin.h"
-a
+
 class Kage : Sannin {
 
 public:

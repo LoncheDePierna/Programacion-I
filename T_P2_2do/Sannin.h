@@ -5,7 +5,6 @@
 #ifndef PROYECTOS_IPV_AAST_SANNIN_H
 #define PROYECTOS_IPV_AAST_SANNIN_H
 
-#include "Persona.h"
 #include "Ninja.h"
 
 class Sannin : public Ninja {
