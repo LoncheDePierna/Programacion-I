@@ -17,7 +17,6 @@ VDouble::VDouble(const VDouble &rhs){
     value= rhs.value;
 }
 
-
 //Sobrecarga de operador "="
 VDouble &VDouble::operator= (const VDouble &rhs){
     if(value != rhs.value){
