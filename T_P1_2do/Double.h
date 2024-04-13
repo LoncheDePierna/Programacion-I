@@ -31,26 +31,26 @@ public:
     VDouble &operator/ (VDouble &rhs);
     VDouble &operator/ (double i);
 //Operadores de asignación %
-    VDouble &operator% (VDouble &rhs);
-    VDouble &operator% (double i);
+    VDouble operator% (VDouble &rhs);
+    VDouble operator% (double i);
 //Operadores de comparacion ">,<,==,=>,=<,!="
-    VDouble &operator> (VDouble &rhs);
-    VDouble &operator> (bool i);
+    bool operator> (VDouble &rhs);
+    bool operator> (double i);
 
-    VDouble &operator< (VDouble &rhs);
-    VDouble &operator< (bool i);
+    bool operator< (VDouble &rhs);
+    bool operator< (double i);
 
-    VDouble &operator== (VDouble &rhs);
-    VDouble &operator== (bool i);
+    bool operator== (VDouble &rhs);
+    bool operator== (double i);
 
-    VDouble &operator>= (VDouble &rhs);
-    VDouble &operator>= (bool i);
+    bool operator>= (VDouble &rhs);
+    bool operator>= (double i);
 
-    VDouble &operator<= (VDouble &rhs);
-    VDouble &operator<= (bool i);
+    bool operator<= (VDouble &rhs);
+    bool operator<= (double i);
 
-    VDouble &operator!= (VDouble &rhs);
-    VDouble &operator!= (bool i);
+    bool operator!= (VDouble &rhs);
+    bool operator!= (double i);
 
 private:
 

@@ -26,31 +26,30 @@ public:
     IntCell &operator/ (IntCell &rhs);
     IntCell &operator/ (int i);
 //Operadores de asignación %
-    IntCell &operator% (IntCell &rhs);
-    IntCell &operator% (int i);
+    IntCell operator% (IntCell &rhs);
+    IntCell operator% (int i);
 //Operadores de comparacion ">,<,==,=>,=<,!="
-    IntCell &operator> (IntCell &rhs);
-    IntCell &operator> (bool i);
+    bool operator> (IntCell &rhs);
+    bool operator> (int i);
 
-    IntCell &operator< (IntCell &rhs);
-    IntCell &operator< (bool i);
+    bool operator< (IntCell &rhs);
+    bool operator< (int i);
 
-    IntCell &operator== (IntCell &rhs);
-    IntCell &operator== (bool i);
+    bool operator== (IntCell &rhs);
+    bool operator== (int i);
 
-    IntCell &operator>= (IntCell &rhs);
-    IntCell &operator>= (bool i);
+    bool operator>= (IntCell &rhs);
+    bool operator>= (int i);
 
-    IntCell &operator<= (IntCell &rhs);
-    IntCell &operator<= (bool i);
+    bool operator<= (IntCell &rhs);
+    bool operator<= (int i);
 
-    IntCell &operator!= (IntCell &rhs);
-    IntCell &operator!= (bool i);
+    bool operator!= (IntCell &rhs);
+    bool operator!= (int i);
 
 private:
 
     int value;
-
 };
 
 #endif //LINKSAPPS_FLOAT_H

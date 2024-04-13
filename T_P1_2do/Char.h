@@ -17,40 +17,13 @@ public:
 
 //Operadores de asignación =
     VChar &operator= (const VChar &rhs);
-    VChar &operator= (char i);
-//Operadores de asignación +
-    VChar &operator+ (const VChar &rhs);
-    VChar &operator+ (char i);
-//Operadores de asignación -
-    VChar &operator- (const VChar &rhs);
-    VChar &operator- (char i);
-//Operadores de asignación *
-    VChar &operator* (VChar &rhs);
-    VChar &operator* (char i);
-//Operadores de asignación /
-    VChar &operator/ (VChar &rhs);
-    VChar &operator/ (char i);
-//Operadores de asignación %
-    VChar &operator% (VChar &rhs);
-    VChar &operator% (char i);
-//Operadores de comparacion ">,<,==,=>,=<,!="
-    VChar &operator> (VChar &rhs);
-    VChar &operator> (bool i);
+    VChar &operator= (int i);
+//Operadores de comparacion "==,!="
+    bool operator== (VChar &rhs);
+    bool operator== (int i);
 
-    VChar &operator< (VChar &rhs);
-    VChar &operator< (bool i);
-
-    VChar &operator== (VChar &rhs);
-    VChar &operator== (bool i);
-
-    VChar &operator>= (VChar &rhs);
-    VChar &operator>= (bool i);
-
-    VChar &operator<= (VChar &rhs);
-    VChar &operator<= (bool i);
-
-    VChar &operator!= (VChar &rhs);
-    VChar &operator!= (bool i);
+    bool operator!= (VChar &rhs);
+    bool operator!= (int i);
 
 private:
 

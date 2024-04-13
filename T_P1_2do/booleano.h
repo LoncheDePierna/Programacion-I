@@ -18,40 +18,13 @@ public:
 
 //Operadores de asignación =
     Booleano &operator= (const Booleano &rhs);
-    Booleano &operator= (bool i);
-//Operadores de asignación +
-    Booleano &operator+ (const Booleano &rhs);
-    Booleano &operator+ (bool i);
-//Operadores de asignación -
-    Booleano &operator- (const Booleano &rhs);
-    Booleano &operator- (bool i);
-//Operadores de asignación *
-    Booleano &operator* (Booleano &rhs);
-    Booleano &operator* (bool i);
-//Operadores de asignación /
-    Booleano &operator/ (Booleano &rhs);
-    Booleano &operator/ (bool i);
-//Operadores de asignación %
-    Booleano &operator% (Booleano &rhs);
-    Booleano &operator% (bool i);
-//Operadores de comparacion ">,<,==,=>,=<,!="
-    Booleano &operator> (Booleano &rhs);
-    Booleano &operator> (bool i);
+    Booleano &operator= (int i);
+//Operadores de comparacion "==,!="
+    bool operator== (Booleano &rhs);
+    bool operator== (int i);
 
-    Booleano &operator< (Booleano &rhs);
-    Booleano &operator< (bool i);
-
-    Booleano &operator== (Booleano &rhs);
-    Booleano &operator== (bool i);
-
-    Booleano &operator>= (Booleano &rhs);
-    Booleano &operator>= (bool i);
-
-    Booleano &operator<= (Booleano &rhs);
-    Booleano &operator<= (bool i);
-
-    Booleano &operator!= (Booleano &rhs);
-    Booleano &operator!= (bool i);
+    bool operator!= (Booleano &rhs);
+    bool operator!= (int i);
 
 private:
 

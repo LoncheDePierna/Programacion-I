@@ -8,115 +8,128 @@
 VDouble::VDouble(){
     this-> value = 0;
 }
-//Constructor Explícito por copia
+//Constructor Explícito por Parámetros
 VDouble::VDouble(double value){
     this-> value=value;
 }
-//Constructor Explícito por Parámetros
+//Constructor Explícito por copia
 VDouble::VDouble(const VDouble &rhs){
     value= rhs.value;
 }
 
+
 //Sobrecarga de operador "="
 VDouble &VDouble::operator= (const VDouble &rhs){
-    this->value = rhs.value;
+    if(value != rhs.value){
+        this->value = rhs.value;
+    }
     return *this;
 }
 VDouble &VDouble::operator= (double i){
-    this->value = i;
+    if(value != value){
+        this->value = value;
+    }
     return *this;
 }
+
 //Sobrecarga de operador "+"
 VDouble &VDouble::operator+ (const VDouble &rhs){
-    this->value = rhs.value;
+    this->value = rhs.value + value;
     return *this;
 }
 VDouble &VDouble::operator+ (double i){
-    this->value = i;
+    this->value = i + value;
     return *this;
 }
+
 //Sobrecarga de operador "-"
 VDouble &VDouble::operator- (const VDouble &rhs){
-    this->value = rhs.value;
+    this->value = rhs.value - value;
     return *this;
 }
 VDouble &VDouble::operator- (double i){
-    this->value = i;
+    this->value = i - value;
     return *this;
 }
+
 //Sobrecarga de operador *
 VDouble &VDouble::operator* (VDouble &rhs){
-    this->value = rhs.value;
+    this->value = rhs.value * value;
     return *this;
 }
 VDouble &VDouble::operator* (double i){
-    this->value = i;
+    this->value = i * value;
     return *this;
 }
+
 //Sobrecarga de operador /
 VDouble &VDouble::operator/ (VDouble &rhs){
-    this->value = rhs.value;
+    this->value = rhs.value / value;
     return *this;
 }
 VDouble &VDouble::operator/ (double i){
-    this->value = i;
+    this->value = i / value;
     return *this;
 }
+
 //Sobrecarga de operador %
-VDouble &VDouble::operator% (VDouble &rhs){
-    this->value = rhs.value;
-    return *this;
+VDouble VDouble::operator% (VDouble &rhs){
+    int division = value / rhs.value;
+    int multi = division * rhs.value;
+    int residuo = value - multi;
+    return VDouble(residuo);
 }
-VDouble &VDouble::operator% (double i){
-    this->value = i;
-    return *this;
+VDouble VDouble::operator% (double i){
+    int division = value / i;
+    int multi = division * i;
+    int residuo = value - multi;
+    return VDouble(residuo);
 }
-//Sobrecarga de Operadores de comparacion ">,<,==,=>,=<,!="
-VDouble &VDouble::operator> (VDouble &rhs){
-    this->value = rhs.value;
-    return *this;
+
+//Sobrecarga de Operadores de comparacion ">"
+bool VDouble::operator> (VDouble &rhs){
+    return value > rhs.value;
 }
-VDouble &VDouble::operator> (bool i){
-    this->value = i;
-    return *this;
+bool VDouble::operator> (double i){
+    return value > i;
 }
-VDouble &VDouble::operator< (VDouble &rhs){
-    this->value = rhs.value;
-    return *this;
+
+//Sobrecarga de Operadores de comparacion "<"
+bool VDouble::operator< (VDouble &rhs){
+    return value < rhs.value;
 }
-VDouble &VDouble::operator< (bool i){
-    this->value = i;
-    return *this;
+bool VDouble::operator< (double i){
+    return value < i;
 }
-VDouble &VDouble::operator== (VDouble &rhs){
-    this->value = rhs.value;
-    return *this;
+
+//Sobrecarga de Operadores de comparacion "=="
+bool VDouble::operator== (VDouble &rhs){
+    return value == rhs.value;
 }
-VDouble &VDouble::operator== (bool i){
-    this->value = i;
-    return *this;
+bool VDouble::operator== (double i){
+    return value == i;
 }
-VDouble &VDouble::operator>= (VDouble &rhs){
-    this->value = rhs.value;
-    return *this;
+
+//Sobrecarga de Operadores de comparacion "=>"
+bool VDouble::operator>= (VDouble &rhs){
+    return value >= rhs.value;
 }
-VDouble &VDouble::operator>= (bool i){
-    this->value = i;
-    return *this;
+bool VDouble::operator>= (double i){
+    return value >= i;
 }
-VDouble &VDouble::operator<= (VDouble &rhs){
-    this->value = rhs.value;
-    return *this;
+
+//Sobrecarga de Operadores de comparacion "=<"
+bool VDouble::operator<= (VDouble &rhs){
+    return value <= rhs.value;
 }
-VDouble &VDouble::operator<= (bool i){
-    this->value = i;
-    return *this;
+bool VDouble::operator<= (double i){
+    return value <= i;
 }
-VDouble &VDouble::operator!= (VDouble &rhs){
-    this->value = rhs.value;
-    return *this;
+
+//Sobrecarga de Operadores de comparacion "!="
+bool VDouble::operator!= (VDouble &rhs){
+    return value != rhs.value;
 }
-VDouble &VDouble::operator!= (bool i){
-    this->value = i;
-    return *this;
+bool VDouble::operator!= (double i){
+    return value != i;
 }
