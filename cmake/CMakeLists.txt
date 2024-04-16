@@ -3,22 +3,7 @@ project(Proyectos_IPV_AAST)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Proyectos_IPV_ASST ../T_P1_2do/Int.cpp
-        ../T_P2_2do/Persona.h
-        ../T_P2_2do/Ninja.h
-        ../T_P2_2do/Persona.cpp
-        ../T_P2_2do/Ninja.cpp
-        ../T_P2_2do/mainPersona.cpp
-        ../T_P2_2do/Sannin.h
-        ../T_P2_2do/Sannin.cpp
-        ../T_P2_2do/Kage.cpp
-        ../T_P2_2do/Jinchuriki.h
-        ../T_P2_2do/Jinchuriki.cpp
-        ../T_P1_2do/main.cpp
-        ../T_P1_2do/booleano.h
-        ../T_P1_2do/Double.h
-        ../T_P1_2do/Char.h
-        ../T_P1_2do/booleano.cpp
-        ../T_P1_2do/Double.cpp
-        ../T_P1_2do/Char.cpp
-        ../T_P1_2do/IntCell[1].cpp)
+add_executable(Proyectos_IPV_ASST
+        ../T_P1_2do/Automovil.h
+        ../T_P1_2do/Automovil.cpp
+        ../T_P1_2do/main.cpp)

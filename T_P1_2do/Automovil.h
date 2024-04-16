@@ -6,13 +6,15 @@
 
 class Automovil {
 
-public:
+    public:
 
     Automovil() = default;//Default constructor
     Automovil(const Automovil &automobil);// Copy constructor
+    Automovil(Automovil &&rhs); //Referencia
     Automovil(std::string marca, std::string duenio, std::string modelo, int anio, float kilometraje);//Parameters    constructor
     ~Automovil() = default;//Destructor
 
+    //sobrecarga de operadores
     Automovil &operator= (const Automovil &rhs);
 
     void Imprimir(){
