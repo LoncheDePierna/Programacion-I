@@ -29,6 +29,10 @@ Persona::Persona(std::string gender, std::string name, int age, float height, fl
     this-> weight = weight;
 };
 
+std::string Persona::Presentarse(){
+  std::cout << "Hola mi nombre es" << gender << std::endl;
+};
+
 std::string Persona::getGender() const {
     return gender;
 }

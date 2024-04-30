@@ -11,7 +11,7 @@ class Persona {
         Persona();//Default constructor
         Persona(const Persona &persona);// Copy constructor
         Persona(std::string gender, std::string name, int age, float height, float weight);//Parameters    constructor
-        ~Persona() = default;//Destructor
+        virtual ~Persona();//Destructor
 
         std::string getGender() const;
         void setGender(std::string gender);
@@ -28,6 +28,8 @@ class Persona {
         float getWeight() const;
         void setWeight(float weight);
 
+        std::string Presentarse();
+
         private:
 
         std::string gender;
@@ -35,6 +37,7 @@ class Persona {
         int age;
         float height;
         float weight;
+
 };
 
 #endif //PROGRAMACION_I_PERSONA_H
