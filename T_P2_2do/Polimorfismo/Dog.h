@@ -16,13 +16,12 @@ public:
     Dog(std::string name, int age, float height, float weight, std::string raza, std::string color);//Parameters    constructor
     ~Dog() = default;//Destructor
 
-    virtual void makeSound();
+    virtual void makeSound() override;
 
 private:
 
     std::string raza;
     std::string color;
-    int nvlChakra;
 
 };
 

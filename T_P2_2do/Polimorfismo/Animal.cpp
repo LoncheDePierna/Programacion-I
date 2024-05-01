@@ -4,6 +4,8 @@
 
 #include "Animal.h"
 
+#include <utility>
+
 Animal::Animal(){
     this-> name = "N/A";
     this-> age = 0;
@@ -20,7 +22,7 @@ Animal::Animal(const Animal &rhs){
 }
 
 Animal::Animal(std::string name, int age, float height, float weight){
-    this-> name = name;
+    this-> name = std::move(name);
     this-> age = age;
     this-> height = height;
     this-> weight = weight;
@@ -29,3 +31,5 @@ Animal::Animal(std::string name, int age, float height, float weight){
 void Animal::makeSound(){
   std::cout << "sound" << std::endl;
 }
+
+Animal::~Animal() = default;
