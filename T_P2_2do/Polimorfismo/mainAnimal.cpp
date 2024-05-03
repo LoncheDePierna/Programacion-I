@@ -1,20 +1,37 @@
 
 #include "Animal.h"
+
 #include "Dog.h"
 #include "Capybara.h"
 #include "Avestruz.h"
+#include "Pinguino.h"
+#include "Pajaro.h"
+#include "Gallina.h"
+#include "Canguro.h"
 
 int main(){
-    Animal Animal("Animal", 0, 0, 0);
-    Animal.makeSound();
+    Animal Animalito;
+    Animalito.makeSound();
 
-    Dog Dog("Canelo", 6, 0.87, 37.4,"Malenois","Blanco con Manchitas Amarillos color azul");
-    Dog.makeSound();
+    Dog Perrito;
+    Perrito.makeSound();
 
-    Capybara Capybara("Pedrito", 6, 0.87, 37.4,"Hostil","Lechuga con adereso chedar");
-    Capybara.makeSound();
+    Capybara Carpincho;
+    Carpincho.makeSound();
 
-    Avestruz Avestruz("MarcianoLoco", 6, 0.87, 37.4,"Rojo Fuxia","2");
-    Avestruz.makeSound();
+    Avestruz Manchas;
+    Manchas.makeSound();
+
+    Animal *Canelo = new Pinguino();
+    Canelo -> makeSound();
+
+    Animal *Tilin = new Pajaro();
+    Tilin -> makeSound();
+
+    Animal *Hernesto = new Gallina();
+    Hernesto -> makeSound();
+
+    Animal *Camaleon = new Canguro();
+    Camaleon -> makeSound();
 
 }

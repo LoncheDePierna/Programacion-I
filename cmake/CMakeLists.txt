@@ -14,4 +14,8 @@ add_executable(Proyectos_IPV_ASST
         ../T_P2_2do/Polimorfismo/Avestruz.cpp
 
         ../T_P2_2do/Polimorfismo/mainAnimal.cpp
+        ../T_P2_2do/Polimorfismo/Canguro.cpp
+        ../T_P2_2do/Polimorfismo/Pajaro.cpp
+        ../T_P2_2do/Polimorfismo/Gallina.cpp
+        ../T_P2_2do/Polimorfismo/Pinguino.cpp
 )
