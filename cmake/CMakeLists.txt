@@ -18,4 +18,4 @@ add_executable(Proyectos_IPV_ASST
         ../T_P2_2do/Polimorfismo/Pajaro.cpp
         ../T_P2_2do/Polimorfismo/Gallina.cpp
         ../T_P2_2do/Polimorfismo/Pinguino.cpp
-)
+        ../T_P2_2do/Escritura/main.cpp)
