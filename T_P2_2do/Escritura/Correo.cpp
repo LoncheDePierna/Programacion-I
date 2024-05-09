@@ -1,19 +1,19 @@
 //
 // Created by Alumnos on 07/05/2024.
 //
-
+#include <iostream>
 #include <string>
 
-Struct Login{
+struct Login{
 
     std::string usuario;
     std::string correo;
     std::string contra;
 
-}
+};
 
 bool isValidEmail(const std::string &correo){
-    return correo.find("@");
+    return correo.find('@');
 }
 
 
@@ -27,10 +27,12 @@ std::cout << "Bienvenido ingresa tus datos" << std::endl;
 std::cout << std::endl << "Ingresa Usuario, Correo y Contrasena: ";
 std::cin >> ingreso.usuario >> ingreso.correo >> ingreso.contra;
 
-std::ofstream Ing("BD.text");
+std::ofstream Ing("BD.txt");
 if (!Ing.is_open()){
+    std::cerr << "No abrio el archivo" << std::endl;
 }
-Ing << ingreso.usuario << "_" << ingreso.correo << "_" << ingreso.contra << "\r\n";
+
+Ing.open("BD.txt")
 Ing.close();
 
 }

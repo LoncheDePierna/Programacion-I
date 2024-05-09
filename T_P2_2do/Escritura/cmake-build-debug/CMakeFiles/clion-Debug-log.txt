@@ -1,0 +1,1 @@
+CMakeLists.txt not found in C:\Users\Alumnos\Documents\Programacion-I\T_P2_2do\Escritura Select CMakeLists.txt
