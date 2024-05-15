@@ -4,4 +4,5 @@ project(Proyectos_IPV_AAST)
 set(CMAKE_CXX_STANDARD 17)
 
 add_executable(Proyectos_IPV_ASST
-        ../T_P2_2do/Escritura/correo.cpp ../T_P2_2do/Escritura/Lectura.cpp)
+        ../T_P2_2do/Escritura/LecturaEscritura.cpp
+)
