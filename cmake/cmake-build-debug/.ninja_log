@@ -1,8 +1,3 @@
 # ninja log v5
-505	659	7374505674183871	Proyectos_IPV_ASST.exe	53e780b620430c5e
-5	504	7374505672676268	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/Escritura/Lectura.cpp.obj	5bbbf447d5eef7e2
-9	554	7374500307263712	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/Escritura/Correo.cpp.obj	61f91ad6ec365a3b
-3	181	7374507614941996	build.ninja	78613e74aaea2a0a
-2	201	7374507614941996	build.ninja	78613e74aaea2a0a
-1	557	7374514267373807	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/Escritura/LecturaEscritura.cpp.obj	f06ddd0ccc7ee8d
 559	717	7374514268941166	Proyectos_IPV_ASST.exe	56cba49c34b5c81c
+2	201	7375756299312129	build.ninja	78613e74aaea2a0a
