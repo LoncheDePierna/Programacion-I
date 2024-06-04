@@ -8,7 +8,7 @@
 //int *numbers = (int*) calloc (5, sizeof(int));
 
 //realloc te permite cambiar el tamaño de un calloc
-//int *numbers = (int*) realloc (numbers, 10, sizeof(int);
+//int *numbers = (int*) realloc (numbers, 10, sizeof(int));
 
 //free cambia el espacio a utilizable
 //free(numbers);
