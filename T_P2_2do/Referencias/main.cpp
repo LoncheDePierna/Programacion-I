@@ -1,6 +1,13 @@
 #include <iostream>
 #include <vector>
 
+struct Armadillo{
+    int a;
+    float b;
+    bool c;
+    char d;
+};
+
 int main() {
     std::cout << "Hello, World!" << std::endl;
     int i = 5;
@@ -23,7 +30,7 @@ int main() {
     *p1 = 25;
     std::cout << *p2;
     */
-
+//Ejercicio
     int *p1 = new int[10];
     int *p2 = p1;
 
@@ -42,7 +49,6 @@ int main() {
     delete p4;
     std::cout << *p3 << std::endl;
 
-
     void *topo = malloc(500);
     void *topito = (void*) calloc (5, 500);
 
@@ -53,12 +59,61 @@ int main() {
     std::cout << _msize(topito) << std::endl;
 
     free(topo);
-
     free(topito);
+//Ejercicio 1 Alocar memoria
+    int *tilin = (int*) malloc (sizeof(int));
+    *tilin = 4;
+    std::cout << *tilin << std::endl;
+    free(tilin);
+//Ejercicio 2 Alocar Arreglo de Memoria
+    int *eteZech = (int*) calloc (20, sizeof(int));
 
+    for (int i = 0; i < 20; i++){
+        *(eteZech + i) = 4;
+        std::cout << *(eteZech + i) << std::endl;
+    }
+
+    std::cout << "jaja " << eteZech[14] << std::endl;
+
+//Ejercicio 3 Cambiar tamaño de Arreglo de Memoria
+
+
+    int *temp = (int*) realloc(eteZech, 2 * _msize(eteZech));
+    eteZech = temp;
+    std::cout << _msize(eteZech) << std::endl;
+
+    for (int i = 20; i < 40; i++){
+        *(eteZech + i) = 4;
+    }
+
+    std::cout << "jeje " << eteZech[37] << std::endl;
+
+    delete temp;
+    free(eteZech);
+
+//Ejercicio 4 New y Delete
+    int *Pepe = new int;
+    *Pepe = 20;
+    std::cout << *Pepe << std::endl;
+    delete Pepe;
+
+//Ejercicio 5 Arreglo New y Delete
+    int *Alga = new int[10];
+    for (int i = 0; i < 10; i++){
+        Alga[i] = 3 + i;
+        std::cout << Alga[i] << std::endl;
+    }
+    delete Alga;
+
+//Ejercicio 6 crear una estructura que tenga 4 datos de diferentes tipos de datos.
+//crear una estructura utilizando new y una estructura utilizando malloc.
+
+    Armadillo Maya = {12,12.1,false,59};
+    Armadillo *ZAZA = (Armadillo*) malloc (sizeof(Armadillo));
+    *ZAZA = {24,12.3,true,67};
+
+    std::cout << ZAZA->a << ZAZA->b << ZAZA->c << ZAZA->d << std::endl;
 return 0;
 
-
-
-
 }
+

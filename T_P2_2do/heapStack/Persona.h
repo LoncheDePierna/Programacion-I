@@ -10,8 +10,13 @@ class Persona {
 
     public:
 
+    Persona();
+
     Persona(bool death, bool *men);
     Persona(const Persona &rhs) : death(rhs.death), men(new bool(*rhs.men)){}
+
+    Persona(bool death, bool men);
+
     virtual ~Persona();
 
 
@@ -19,8 +24,7 @@ class Persona {
     private:
 
     bool death;
-    men = new bool;
-    *men = *rhs.men;
+    bool men = new bool;
 
 };
 
