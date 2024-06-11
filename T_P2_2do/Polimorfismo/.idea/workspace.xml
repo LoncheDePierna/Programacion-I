@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="192848fb-2c25-421e-a025-7358fb1813c8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../T_P1_2do/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T_P1_2do/.idea/T_P1_2do.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T_P1_2do/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../T_P1_2do/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/.idea/EjercicioRepaso.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Enemigo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Enemigo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Guerrero.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Guerrero.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Mago.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Mago.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/PersonajeVideojuego.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/PersonajeVideojuego.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Herencia/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Herencia/.idea/Herencia.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Herencia/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Herencia/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Polimorfismo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Herencia/Persona.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Herencia/Persona.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2hkF3dRfWKr0XEatcKDa6aKDqJo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "C:/Users/Alumnos/Documents/Programacion-I/T_P2_2do/Polimorfismo",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="192848fb-2c25-421e-a025-7358fb1813c8" name="Changes" comment="" />
+      <created>1718129970785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718129970785</updated>
+      <workItem from="1718129971964" duration="1454000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

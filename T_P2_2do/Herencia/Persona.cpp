@@ -67,3 +67,4 @@ float Persona::getWeight() const {
 void Persona::setWeight(float weight) {
     this->weight = weight;
 }
+
