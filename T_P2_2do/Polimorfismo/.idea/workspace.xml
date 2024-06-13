@@ -20,10 +20,14 @@
       <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/.idea/EjercicioRepaso.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Enemigo.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Enemigo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Goblin.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Goblin.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Guerrero.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Guerrero.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Mago.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Mago.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Orco.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/Orco.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/PersonajeVideojuego.cpp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../EjercicioRepaso/PersonajeVideojuego.h" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Herencia/.idea/.gitignore" afterDir="false" />
@@ -76,7 +80,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718129970785</updated>
-      <workItem from="1718129971964" duration="1454000" />
+      <workItem from="1718129971964" duration="2049000" />
     </task>
     <servers />
   </component>

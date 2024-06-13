@@ -4,7 +4,7 @@
 
 #include "Guerrero.h"
 
-Guerrero::Guerrero() : PersonajeVideojuego(){
+Guerrero::Guerrero() : PersonajeVideojuego(), Inventario(){
     this-> lvlFuerza = 0;
     this-> lvlDestreza = 0;
 };

@@ -5,8 +5,9 @@
 #ifndef EJERCICIOREPASO_GUERRERO_H
 #define EJERCICIOREPASO_GUERRERO_H
 #include "PersonajeVideojuego.h"
+#include "Inventario.h"
 
-class Guerrero : public PersonajeVideojuego{
+class Guerrero : public PersonajeVideojuego, public Inventario{
 
 public:
     Guerrero();

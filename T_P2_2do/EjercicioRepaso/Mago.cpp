@@ -4,7 +4,7 @@
 
 #include "Mago.h"
 
-Mago::Mago() : PersonajeVideojuego(){
+Mago::Mago() : PersonajeVideojuego(), Inventario(){
     this-> lvlMana = 0;
     this-> lvlHechizeria = 0;
 };

@@ -5,19 +5,32 @@
 #include "Enemigo.h"
 
 Enemigo::Enemigo(){
-    this -> lvlAmenaza = 0;
+    this -> dano = 0;
     this -> vida = 0;
-
 }
 
-Enemigo::Enemigo(int lvlAmenaza, int vida) {
-    this -> lvlAmenaza = lvlAmenaza;
+Enemigo::Enemigo(int dano, int vida) {
+    this -> dano = dano;
     this -> vida = vida;
 
 }
 
-void Enemigo::RecibirDano(){
-    std::cout << "Recive Dano" << std::endl;
+int Enemigo::getdano() const {
+    return dano;
+}
+void Enemigo::setdano(int dano) {
+    this-> dano = dano;
+}
+int Enemigo::getvida() const {
+    return vida;
+}
+void Enemigo::setvida(int vida) {
+    this-> vida = vida;
+}
+
+void Enemigo::RecibirDano(int dano){
+    vida -= dano;
+    std::cout << "Recive Dano " << vida << std::endl;
 }
 
 Enemigo::~Enemigo() {

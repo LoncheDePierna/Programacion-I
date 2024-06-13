@@ -5,8 +5,9 @@
 #ifndef EJERCICIOREPASO_MAGO_H
 #define EJERCICIOREPASO_MAGO_H
 #include "PersonajeVideojuego.h"
+#include "Inventario.h"
 
-class Mago : public PersonajeVideojuego {
+class Mago : public PersonajeVideojuego, public Inventario {
 
     public:
     Mago();

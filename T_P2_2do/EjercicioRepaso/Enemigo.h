@@ -11,14 +11,19 @@ class Enemigo {
     public:
     Enemigo();
     Enemigo(const Enemigo &enemigo);
-    Enemigo(int lvlAmenaza, int vida);
+    Enemigo(int dano, int vida);
     virtual ~Enemigo();
 
+    int getdano() const;
+    void setdano(int dano);
 
-    virtual void RecibirDano();
+    int getvida() const;
+    void setvida(int vida);
+
+    virtual void RecibirDano(int dano);
 
     private:
-    int lvlAmenaza;
+    int dano;
     int vida;
 };
 
