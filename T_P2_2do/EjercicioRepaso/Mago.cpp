@@ -26,7 +26,6 @@ int Mago::getlvlHechizeria() const {
 void Mago::setlvlHechizeria(int lvlHechizeria) {
     this-> lvlHechizeria = lvlHechizeria;
 }
-
     void Mago::Ataque() {
     std::cout << "FireBall!" << std::endl;
 }

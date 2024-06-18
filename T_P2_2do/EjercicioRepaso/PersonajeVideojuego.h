@@ -4,8 +4,11 @@
 
 #ifndef EJERCICIOREPASO_PERSONAJEVIDEOJUEGO_H
 #define EJERCICIOREPASO_PERSONAJEVIDEOJUEGO_H
-
+#include "Curar.h"
+#include "BolaDeFuego.h"
 #include "iostream"
+#include "vector"
+#include "algorithm"
 
 class PersonajeVideojuego {
 
@@ -28,13 +31,14 @@ class PersonajeVideojuego {
     void setgender(std::string gender);
 
     virtual void Ataque();
+    void addHabilidades(Habilidad);
 
     private:
     int lvl;
     int  vida;
     std::string nombre;
     std::string gender;
-
+    std::vector<Habilidad*> Habilidades;
 };
 
 
