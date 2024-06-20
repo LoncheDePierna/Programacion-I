@@ -14,8 +14,6 @@ class Inventario {
     Inventario();
     virtual ~Inventario();
 
-
-
     void addItemInv(std::string item);
     void delItemInv(std::string item);
     void mostrarInv();
