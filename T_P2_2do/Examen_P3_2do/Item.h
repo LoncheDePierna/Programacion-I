@@ -13,7 +13,7 @@ public:
     virtual ~Item();
 
     std::string getNombre() const;
-    std::string getTipo() const;
+    std::string getTipo() const noexcept;
     virtual void usarItem(std::string nombre);
 
 private:

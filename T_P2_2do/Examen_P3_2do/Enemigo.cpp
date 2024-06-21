@@ -21,7 +21,7 @@ int Enemigo::getArmadura() const {
 }
 
 void Enemigo::mostrarInfo() {
-    std::cout << "Nombre: " << getNombre() << " Salud: " << getSalud() << "Dano: " << getDano() << " Armadura: " << getArmadura() << std::endl;
+    std::cout << "Nombre: " << getNombre() << " Salud: " << getSalud() << " Dano: " << getDano() << " Armadura: " << getArmadura() << std::endl;
 }
 
 Enemigo::~Enemigo(){

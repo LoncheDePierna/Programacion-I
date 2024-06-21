@@ -4,7 +4,7 @@
 
 #include "Personaje.h"
 
-    Personaje::Personaje() {
+    Personaje::Personaje() : Entidad(){
     this -> dano = 0;
     this ->mana = 0;
 }
@@ -21,7 +21,7 @@ int Personaje::getMana() const {
 }
 
 void Personaje::mostrarInfo() {
-    std::cout << "Nombre: " << getNombre() << " Salud: " << getSalud() << "Dano: " << getDano() << " Mana: " << getMana() << std::endl;
+    std::cout << "Nombre: " << getNombre() << " Salud: " << getSalud() << " Dano: " << getDano() << " Mana: " << getMana() << std::endl;
 }
 
     Personaje::~Personaje(){

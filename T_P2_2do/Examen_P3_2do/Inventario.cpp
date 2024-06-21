@@ -14,14 +14,15 @@ Inventario::Inventario(std::vector<Item*> inv) {
 
 void Inventario::agregarItem(Item* newItem) {
     inv.push_back(newItem);
-    std::cout<<"Item" << newItem->getNombre() << "agregado."<<std::endl;
+    std::cout<<"Item " << newItem->getNombre() << " agregado."<<std::endl;
 }
 
 void Inventario::mostrarItem() {
-    std::cout << "~ Inventario ~ " << std::endl;
+    std::cout << "~ Inventario ~" << std::endl;
     for (Item* item : inv){
         std::cout << "Item: " << item->getNombre() << " Tipo: " << item->getTipo() << std::endl;
     }
+    std::cout << "~ ~ ~ ~ ~ ~ ~" << std::endl;
 }
 
 void Inventario::eliminarItem(std::string nombre) {

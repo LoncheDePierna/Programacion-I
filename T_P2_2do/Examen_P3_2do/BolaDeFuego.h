@@ -4,10 +4,21 @@
 
 #ifndef EXAMEN_P3_2DO_BOLADEFUEGO_H
 #define EXAMEN_P3_2DO_BOLADEFUEGO_H
+#include "Habilidad.h"
+#include <iostream>
 
+class BolaDeFuego : public Habilidad{
+public:
+    BolaDeFuego();
+    BolaDeFuego(std::string nombre, int costo, int dano);
+    virtual ~BolaDeFuego();
 
-class BolaDeFuego {
+    void usarHabilidad(std::string nombre) override;
+    void agregarHabilidad(std::string nombre) override;
+    void mostrarHabilidad();
 
+private:
+    int dano;
 };
 
 

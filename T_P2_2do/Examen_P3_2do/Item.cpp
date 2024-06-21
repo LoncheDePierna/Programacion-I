@@ -10,14 +10,15 @@
 }
 
     Item::Item(std::string nombre, std::string tipo) {
-    this->nombre = nombre;
+    this ->  nombre = nombre;
+    this -> tipo = tipo;
 }
 
 
 std::string Item::getNombre() const{
     return nombre;
 }
-std::string Item::getTipo() const{
+std::string Item::getTipo() const noexcept{
     return tipo;
 }
 
