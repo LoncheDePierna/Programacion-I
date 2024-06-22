@@ -5,14 +5,14 @@
 #ifndef EJERCICIOREPASO_BOLADEFUEGO_H
 #define EJERCICIOREPASO_BOLADEFUEGO_H
 #include "Habilidad.h"
-#include "iostream"
+#include <iostream>
 
 class BolaDeFuego : public Habilidad{
 
     public:
         BolaDeFuego();
         BolaDeFuego(int danio);
-        ~BolaDeFuego();
+        virtual ~BolaDeFuego();
 
         void usar() override;
 

@@ -13,26 +13,29 @@ Inventario::~Inventario() {
     std::cout << "Inventario Destruido" << std::endl;
 }
 
-void Inventario::addItemInv(std::string item){
+void Inventario::addItemInv(const Item& item){
     inv.push_back(item);
-    std::cout << item << " Agregado al inventario" << std::endl;
+    std::cout << item.getnombre() << " Agregado al inventario" << std::endl;
 }
 
-void Inventario::delItemInv(std::string item){
-    auto it = std::find(inv.begin(), inv.end(), item);
-            if (it != inv.end()){
-                inv.erase(it);
-                std::cout << std::endl << item << " Eliminado" << std::endl;
-            }
-            else{
-                std::cout << item << " No encontrado" << std::endl;
-            }
+void Inventario::delItemInv(const std::string& nombre){
+    auto it = std::find_if(inv.begin(), inv.end(), [&nombre](const Item& item) {
+        return item.getnombre() == nombre;
+    });
+
+    if (it != inv.end()){
+        inv.erase(it);
+        std::cout << std::endl << nombre << " Eliminado" << std::endl;
+    }
+    else{
+        std::cout << nombre << " No encontrado" << std::endl;
+    }
 }
 void Inventario::mostrarInv() {
 
     std::cout<<"Tu inventario tiene: ";
-        for(std::string& item : inv)
+        for(const Item& item : inv)
         {
-            std::cout<<item<<" ";
+            std::cout<<item.getnombre()<<" ";
         }
     }

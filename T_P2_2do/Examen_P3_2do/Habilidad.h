@@ -12,8 +12,8 @@ public:
     Habilidad(std::string nombre, int costo);
     virtual ~Habilidad();
 
-    virtual void usarHabilidad(std::string nombre);
-    virtual void agregarHabilidad(std::string nombre);
+    void usarHabiLidad(std::string nombre);
+    void agregarHabiLidad(std::string nombre);
     std::string getNombreH() const;
 
 private:

@@ -5,6 +5,12 @@
 #include "Habilidad.h"
 #include "iostream"
 
-void usar(){
+Habilidad::Habilidad() {
+}
+
+void Habilidad::usar(){
     std::cout << "Has usado la habilidad " << std::endl;
+}
+
+Habilidad::~Habilidad(){
 }

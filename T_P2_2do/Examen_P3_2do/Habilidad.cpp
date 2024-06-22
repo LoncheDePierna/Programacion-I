@@ -17,11 +17,11 @@ std::string Habilidad::getNombreH() const {
     return nombre;
 }
 
-    void Habilidad::usarHabilidad(std::string nombre){
+    void Habilidad::usarHabiLidad(std::string nombre){
     std::cout << "Has usado la habilidad: " << nombre << std::endl;
     }
 
-    void Habilidad::agregarHabilidad(std::string nombre){
+    void Habilidad::agregarHabiLidad(std::string nombre){
     std::cout << "Has agregado la habilidad: " << nombre << std::endl;
 }
 

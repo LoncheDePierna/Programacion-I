@@ -5,6 +5,11 @@
 #ifndef EJERCICIOREPASO_PERSONAJE_H
 #define EJERCICIOREPASO_PERSONAJE_H
 
+#include "Curar.h"
+#include "BolaDeFuego.h"
+#include "iostream"
+#include "vector"
+#include "algorithm"
 
 class Personaje {
 public:
@@ -12,11 +17,13 @@ public:
     Personaje(int salud, int mana);
     virtual ~Personaje();
 
-    int getlvl() const;
-    void setlvl(int lvl);
+    int getsalud() const;
+    void setsalud(int salud);
 
-    int getvida() const;
-    void setvida(int vida);
+    int getmana() const;
+    void setmana(int mana);
+
+    void addHabilidades(Habilidad);
 
 private:
     int salud;

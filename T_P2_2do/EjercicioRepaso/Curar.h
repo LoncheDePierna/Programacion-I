@@ -12,7 +12,7 @@ class Curar : public Habilidad{
     public:
         Curar();
         Curar(int cura);
-        ~Curar();
+        virtual ~Curar();
 
         void usar() override;
 

@@ -5,9 +5,9 @@
 #include "ConfiguracionesJuego.h"
 
     ConfiguracionesJuego::ConfiguracionesJuego() {
-    this -> resolution = 19201080;
-    this -> volume = 68;
-    this -> difficult = 3;
+    this -> resolution = 0;
+    this -> volume = 0;
+    this -> difficult = 0;
 }
 
     ConfiguracionesJuego::ConfiguracionesJuego(int resolution, int volume, int difficult) {
@@ -22,6 +22,7 @@ int ConfiguracionesJuego::getResolution() const {
 void ConfiguracionesJuego::setResolution(int resolution) {
     this-> resolution = resolution;
 }
+
 int ConfiguracionesJuego::getlvlVolume() const {
     return volume;
 }
@@ -33,4 +34,8 @@ int ConfiguracionesJuego::getlvlDifficult() const {
 }
 void ConfiguracionesJuego::setlvlDifficult(int difficult) {
     this-> difficult = difficult;
+}
+
+ConfiguracionesJuego::~ConfiguracionesJuego(){
+    std::cout << "ConfiguracionesJuego destruida";
 }

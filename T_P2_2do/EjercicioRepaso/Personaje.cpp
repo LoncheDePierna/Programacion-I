@@ -14,29 +14,29 @@ Personaje::Personaje(int salud, int mana) {
     this -> mana = salud;
 }
 
-int Personaje::getlvl() const {
-    return lvl;
+int Personaje::getsalud() const {
+    return salud;
 }
-void Personaje::setlvl(int lvl) {
-    this-> lvl = lvl;
+void Personaje::setsalud(int lvl) {
+    this-> salud = salud;
 }
-int Personaje::getvida() const {
-    return vida;
+int Personaje::getmana() const {
+    return mana;
 }
-void Personaje::setvida(int lvl) {
-    this-> vida = vida;
+void Personaje::setmana(int lvl) {
+    this-> mana = mana;
 }
 
-void PersonajeVideojuego::addHabilidades(Habilidad){
+void Personaje::addHabilidades(Habilidad){
     Habilidad *p = new BolaDeFuego(8);
     Habilidades.push_back(p);
-    std::cout << p << " Agregado al arbol de Habilidades" << std::endl;
+    std::cout << "Bola de Fuego Agregado al arbol de Habilidades" << std::endl;
 
     Habilidad *o = new Curar(4);
     Habilidades.push_back(o);
-    std::cout << o << " Agregado al arbol de Habilidades" << std::endl;
+    std::cout << "Curar Agregado al arbol de Habilidades" << std::endl;
 }
 
-PersonajeVideojuego::~PersonajeVideojuego() {
-    std::cout << "PersonajeVideojuego Destruido" << std::endl;
+Personaje::~Personaje() {
+    std::cout << "Personaje Destruido" << std::endl;
 }

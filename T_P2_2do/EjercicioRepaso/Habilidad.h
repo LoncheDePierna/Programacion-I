@@ -4,7 +4,7 @@
 
 #ifndef EJERCICIOREPASO_HABILIDAD_H
 #define EJERCICIOREPASO_HABILIDAD_H
-
+#include "iostream"
 
 class Habilidad {
     public:

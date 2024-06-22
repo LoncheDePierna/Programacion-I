@@ -7,7 +7,7 @@
 #include "Personaje.h"
 #include "Inventario.h"
 #include "BolaDeFuego.h"
-#include "Curar"
+#include "Curar.h"
 #include <iostream>
 
 class Jugador : public Personaje, public Inventario, public BolaDeFuego, public Curar{

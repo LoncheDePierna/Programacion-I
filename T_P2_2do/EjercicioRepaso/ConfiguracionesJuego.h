@@ -4,7 +4,7 @@
 
 #ifndef EJERCICIOREPASO_CONFIGURACIONESJUEGO_H
 #define EJERCICIOREPASO_CONFIGURACIONESJUEGO_H
-
+#include <iostream>
 
 class ConfiguracionesJuego {
 

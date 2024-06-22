@@ -1,13 +1,12 @@
 //
 // Created by Alumnos on 18/06/2024.
 //
-
 #include "BolaDeFuego.h"
 
-    BolaDeFuego::BolaDeFuego() {
+    BolaDeFuego::BolaDeFuego() : Habilidad(){
         this -> danio = 0;
 }
-    BolaDeFuego::BolaDeFuego(int danio) {
+    BolaDeFuego::BolaDeFuego(int danio) : Habilidad(){
     this -> danio = danio;
 }
 

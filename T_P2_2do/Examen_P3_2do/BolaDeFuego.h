@@ -13,8 +13,8 @@ public:
     BolaDeFuego(std::string nombre, int costo, int dano);
     virtual ~BolaDeFuego();
 
-    void usarHabilidad(std::string nombre) override;
-    void agregarHabilidad(std::string nombre) override;
+    void usarHabilidad(std::string nombre);
+    void agregarHabilidad(std::string nombre);
     void mostrarHabilidad();
 
 private:
