@@ -3,4 +3,5 @@ project(heapStack)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(heapStack main.cpp Persona.h Persona.cpp)
+add_executable(heapStack main.cpp Persona.h Persona.cpp
+        ../Referencias/main.cpp)
