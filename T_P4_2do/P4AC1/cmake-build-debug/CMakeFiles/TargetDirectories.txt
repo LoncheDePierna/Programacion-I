@@ -1,0 +1,3 @@
+C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/P4AC1/cmake-build-debug/CMakeFiles/P4AC1.dir
+C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/P4AC1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/P4AC1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
