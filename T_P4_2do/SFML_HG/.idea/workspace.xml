@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader"><![CDATA[{
+  "useNewFormat": true
+}]]></component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="SFML_HG" targetName="sfml-system" />
+      <config projectName="SFML_HG" targetName="sfml-main" />
+      <config projectName="SFML_HG" targetName="sfml-window" />
+      <config projectName="SFML_HG" targetName="sfml-graphics" />
+      <config projectName="SFML_HG" targetName="sfml-network" />
+      <config projectName="SFML_HG" targetName="SFML_HG" />
+      <config projectName="SFML_HG" targetName="sfml-audio" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db57df6c-2550-4154-9d80-49eb8d3b4c01" name="Changes" comment="Yeeeaaa">
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/.idea/HG_SFML.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/.cmake/api/v1/query/cache-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/.ninja_deps" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/3.26.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/3.26.4/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/HG_SFML.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/CMakeFiles/Export/3937c6824958577f216dad0a66bc6149/SFMLStaticTargets-debug.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/CMakeFiles/Export/3937c6824958577f216dad0a66bc6149/SFMLStaticTargets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/SFMLConfig.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/SFMLConfigDependencies.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/SFMLConfigVersion.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/SFMLStaticTargets.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/lib/libsfml-graphics-s-d.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/lib/libsfml-system-s-d.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/lib/libsfml-window-s-d.a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Audio/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Graphics/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Main/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Network/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Clock.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Err.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/FileInputStream.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Lock.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/MemoryInputStream.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Mutex.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Sleep.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/String.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Thread.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/ThreadLocal.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Time.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ClockImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/MutexImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/SleepImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/CMakeFiles/sfml-system.dir/Win32/ThreadLocalImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/System/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/ClipboardImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/CursorImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/InputImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/JoystickImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/SensorImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/VideoModeImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglContext.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WglExtensions.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Win32/WindowImplWin32.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/Window/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-build/src/SFML/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/.ninja_log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/CMakeCache.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/CMakeFiles/3.26.4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/CMakeFiles/cmake.check_cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/CMakeFiles/hg_sfml-populate-complete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/CMakeFiles/hg_sfml-populate.dir/Labels.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/CMakeFiles/hg_sfml-populate.dir/Labels.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/CMakeFiles/rules.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/cmake_install.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/src/hg_sfml-populate-stamp/hg_sfml-populate-build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/src/hg_sfml-populate-stamp/hg_sfml-populate-configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/src/hg_sfml-populate-stamp/hg_sfml-populate-done" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/src/hg_sfml-populate-stamp/hg_sfml-populate-download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/src/hg_sfml-populate-stamp/hg_sfml-populate-gitclone-lastrun.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/src/hg_sfml-populate-stamp/hg_sfml-populate-gitinfo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/src/hg_sfml-populate-stamp/hg_sfml-populate-install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/src/hg_sfml-populate-stamp/hg_sfml-populate-mkdir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/src/hg_sfml-populate-stamp/hg_sfml-populate-patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/src/hg_sfml-populate-stamp/hg_sfml-populate-test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/tmp/hg_sfml-populate-cfgcmd.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/tmp/hg_sfml-populate-gitclone.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/tmp/hg_sfml-populate-gitupdate.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/_deps/hg_sfml-subbuild/hg_sfml-populate-prefix/tmp/hg_sfml-populate-mkdirs.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/build.ninja" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../HG_SFML/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="2.2" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2ioMClfgvzo91uXqyy3o4vJromU" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "E:/GM/Documents/CLion/Proyectos",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="CMake Application.SFML_HG">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SFML_HG" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFML_HG" TARGET_NAME="SFML_HG" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="SFML_HG" RUN_TARGET_NAME="SFML_HG">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-audio" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFML_HG" TARGET_NAME="sfml-audio" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-graphics" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFML_HG" TARGET_NAME="sfml-graphics" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFML_HG" TARGET_NAME="sfml-main" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-network" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFML_HG" TARGET_NAME="sfml-network" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-system" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFML_HG" TARGET_NAME="sfml-system" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sfml-window" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="SFML_HG" TARGET_NAME="sfml-window" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.SFML_HG" />
+      <item itemvalue="CMake Application.sfml-audio" />
+      <item itemvalue="CMake Application.sfml-graphics" />
+      <item itemvalue="CMake Application.sfml-main" />
+      <item itemvalue="CMake Application.sfml-network" />
+      <item itemvalue="CMake Application.sfml-system" />
+      <item itemvalue="CMake Application.sfml-window" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db57df6c-2550-4154-9d80-49eb8d3b4c01" name="Changes" comment="" />
+      <created>1720152350694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720152350694</updated>
+      <workItem from="1720152352324" duration="391000" />
+    </task>
+    <task id="LOCAL-00001" summary="Yeeeaaa">
+      <option name="closed" value="true" />
+      <created>1720152549328</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720152549328</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Yeeeaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Yeeeaaa" />
+  </component>
+</project>

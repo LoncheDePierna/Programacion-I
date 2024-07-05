@@ -1,1 +1,0 @@
-CMakeLists.txt not found in C:\Users\Diego\CLionProjects\Programacion-I\T_P4_2do\HG_SFML Select CMakeLists.txt

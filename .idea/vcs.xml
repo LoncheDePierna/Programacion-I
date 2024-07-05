@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/T_P4_do/HG_SFML/cmake-build-debug/_deps/hg_sfml-src" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-src" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/T_P4_2do/SFML_HG/cmake-build-debug/_deps/sfml_hg-src" vcs="Git" />
   </component>
 </project>

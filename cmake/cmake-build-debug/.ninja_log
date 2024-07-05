@@ -3,9 +3,9 @@
 6	678	7404785535332118	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Habilidad.cpp.obj	93a000359aaf169f
 44	1723	7404737839815668	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/PersonajeVideojuego.cpp.obj	bef2c2e32bf62bd0
 5	838	7404759040167115	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Personaje.cpp.obj	724ef937a55acb03
-2	201	7407252066172461	build.ninja	78613e74aaea2a0a
-25	1066	7404778813972903	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Guerrero.cpp.obj	c6fa82c89f4d2052
-12	1054	7404778813829059	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Mago.cpp.obj	cef0c16c9759c61c
+2	201	7418560704516536	build.ninja	78613e74aaea2a0a
+19	1545	7407252155374671	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Guerrero.cpp.obj	c6fa82c89f4d2052
+10	1547	7407252155374671	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Mago.cpp.obj	cef0c16c9759c61c
 5	763	7404798956924005	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/main.cpp.obj	8526ecbd0c3369c9
 34	1761	7404737840832469	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Orco.cpp.obj	5ca408e1d82cc7a3
 5	662	7404796824856485	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/ConfiguracionesJuego.cpp.obj	fad44f4ec60c5ccd
@@ -15,5 +15,3 @@
 6	989	7404739794230734	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Goblin.cpp.obj	72b10ed05e015b1e
 18	1183	7404778815133539	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Inventario.cpp.obj	e646adc8c338d09e
 14	701	7404785535570196	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Item.cpp.obj	2d4936584465bd59
-19	1545	7407252155374671	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Guerrero.cpp.obj	c6fa82c89f4d2052
-10	1547	7407252155374671	CMakeFiles/Proyectos_IPV_ASST.dir/C_/Users/Diego/CLionProjects/Programacion-I/T_P2_2do/EjercicioRepaso/Mago.cpp.obj	cef0c16c9759c61c
