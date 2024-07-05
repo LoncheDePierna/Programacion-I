@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/CMakeFiles/sfml_hg-populate"
+		},
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/CMakeFiles/sfml_hg-populate.rule"
+		},
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/CMakeFiles/sfml_hg-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"sfml_hg-populate"
+		],
+		"name" : "sfml_hg-populate"
+	}
+}

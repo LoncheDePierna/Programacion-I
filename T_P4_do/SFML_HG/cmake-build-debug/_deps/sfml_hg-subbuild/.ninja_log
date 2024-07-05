@@ -1,0 +1,21 @@
+# ninja log v5
+1	64	7418556131999105	sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-mkdir	319fc1afbdff3d5b
+1	64	7418556131999105	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-mkdir	319fc1afbdff3d5b
+65	10229	7418556233632442	sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-download	67d82f351158ecd1
+65	10229	7418556233632442	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-download	67d82f351158ecd1
+10229	10404	0	sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-update	3d9387181a15718f
+10229	10404	0	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-update	3d9387181a15718f
+10404	10469	7418556236028002	sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-patch	559fe98cab826dea
+10404	10469	7418556236028002	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-patch	559fe98cab826dea
+10469	10530	7418556236657919	sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-configure	a27afa9745d3cb9
+10469	10530	7418556236657919	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-configure	a27afa9745d3cb9
+10530	10592	7418556237272966	sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-build	9f26eb4bcdb49660
+10530	10592	7418556237272966	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-build	9f26eb4bcdb49660
+10592	10654	7418556237878078	sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-install	b32dbde3272c103b
+10592	10654	7418556237878078	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-install	b32dbde3272c103b
+10654	10718	7418556238532807	sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-test	a316bf44ef94b527
+10654	10718	7418556238532807	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-test	a316bf44ef94b527
+10718	10803	7418556239379133	CMakeFiles/sfml_hg-populate-complete	8f9067a5cf97c514
+10718	10803	7418556239379133	sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-done	8f9067a5cf97c514
+10718	10803	7418556239379133	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/CMakeFiles/sfml_hg-populate-complete	8f9067a5cf97c514
+10718	10803	7418556239379133	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/sfml_hg-populate-prefix/src/sfml_hg-populate-stamp/sfml_hg-populate-done	8f9067a5cf97c514

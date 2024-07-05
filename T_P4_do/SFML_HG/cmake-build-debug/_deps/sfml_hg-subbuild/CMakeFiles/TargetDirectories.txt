@@ -1,0 +1,3 @@
+C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/CMakeFiles/sfml_hg-populate.dir
+C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/Diego/CLionProjects/Programacion-I/T_P4_do/SFML_HG/cmake-build-debug/_deps/sfml_hg-subbuild/CMakeFiles/rebuild_cache.dir
