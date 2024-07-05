@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/hg_sfml-build/src/SFML",
+		"source" : "cmake-build-debug/_deps/hg_sfml-src/src/SFML"
+	}
+}
