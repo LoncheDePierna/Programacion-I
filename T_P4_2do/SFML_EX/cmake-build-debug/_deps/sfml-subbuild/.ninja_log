@@ -1,0 +1,21 @@
+# ninja log v5
+0	82	7428723157049586	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	e420c499fff8f257
+0	82	7428723157049586	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/SFML_EX/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	e420c499fff8f257
+82	10227	7428723258500546	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	f550154165ed4b7a
+82	10227	7428723258500546	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/SFML_EX/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	f550154165ed4b7a
+10228	10378	0	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	9b0c0d05716acd9d
+10228	10378	0	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/SFML_EX/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	9b0c0d05716acd9d
+10379	10438	7428723260608870	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	de2d8ae5a67e4929
+10379	10438	7428723260608870	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/SFML_EX/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	de2d8ae5a67e4929
+10438	10495	7428723261189667	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	c53cab4b4921f953
+10438	10495	7428723261189667	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/SFML_EX/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	c53cab4b4921f953
+10495	10553	7428723261765002	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	808420e69849dcb7
+10495	10553	7428723261765002	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/SFML_EX/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	808420e69849dcb7
+10553	10612	7428723262361146	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	94469452f4b1743
+10553	10612	7428723262361146	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/SFML_EX/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	94469452f4b1743
+10613	10673	7428723262965980	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	8b8b326ce69f2ef3
+10613	10673	7428723262965980	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/SFML_EX/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	8b8b326ce69f2ef3
+10673	10751	7428723263745054	CMakeFiles/sfml-populate-complete	8a5859eb4c70fa4d
+10673	10751	7428723263745054	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	8a5859eb4c70fa4d
+10673	10751	7428723263745054	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/SFML_EX/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	8a5859eb4c70fa4d
+10673	10751	7428723263745054	C:/Users/Diego/CLionProjects/Programacion-I/T_P4_2do/SFML_EX/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	8a5859eb4c70fa4d
