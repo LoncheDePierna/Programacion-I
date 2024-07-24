@@ -10,4 +10,4 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(SFML_EX main.cpp)
 
-target_link_libraries(SFML_EX sfml-graphics)
+target_link_libraries(SFML_EX sfml-graphics sfml-window sfml-system sfml-audio)
